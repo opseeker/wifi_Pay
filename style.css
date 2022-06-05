@@ -2,17 +2,18 @@
     width: 100%;
     z-index: -1;
     position: absolute;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     filter: grayscale(0);
     display: none;
 }
 
 body {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-                background-repeat: no-repeat;
-                background-position:center;
-                background-size: cover;
+        radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .s1 {
@@ -53,12 +54,12 @@ body {
 
 .title-1 {
     width: 100%;
-    font-size: 4em; 
+    font-size: 4em;
     text-align: center;
     background-color: #111;
 }
 
-.gold a{
+.gold a {
     color: gold !important;
     text-shadow: 3px 3px #555 !important;
     font-weight: 800;
@@ -67,8 +68,7 @@ body {
 }
 
 .gold {
-    border: 2px solid green !important;
-    background-image: url(./gold.png)!important;
+    background-image: url(./gold.png) !important;
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -81,6 +81,7 @@ body {
     font-size: 1.4em;
     text-shadow: 1px 1px #777;
 }
+
 .diamond {
     background-image: url(./diamons_neon.png) !important;
     background-size: 40%;
@@ -89,12 +90,13 @@ body {
     box-shadow: 10px 10px 20px #000;
 }
 
-.black a{
+.black a {
     color: black;
     font-weight: 800;
     font-size: 1.4em;
     text-shadow: 2px 2px 5px #777;
 }
+
 .black {
     background-image: url(./black.png) !important;
     background-size: 30%;
@@ -108,11 +110,11 @@ body {
     animation: fadeOut 1s linear;
     position: absolute;
     padding-top: 40%;
-    padding-bottom:40%
+    padding-bottom: 40%
 }
 
 @keyframes fadeIn {
-    0%{
+    0% {
         opacity: 0;
     }
 
@@ -122,11 +124,11 @@ body {
 }
 
 @keyframes fadeOut {
-    0%{
+    0% {
         width: 100%;
     }
 
-    100%{
+    100% {
         border-radius: 50%;
         width: 100px;
     }
